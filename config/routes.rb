@@ -54,8 +54,8 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  resources :films, only: [:index]
+  get '/film', :to => 'films#index'
 
-  root :to => redirect('/films.html')
+  root :to => redirect('/film')
 
 end
