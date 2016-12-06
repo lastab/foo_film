@@ -1,3 +1,18 @@
 // Place all the styles related to the Films controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.wrapper {
+  background: purple;
+}
+
+.panel {
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 30px;
+  margin-top: 80px;
+  h3 {
+    color: purple;
+  }
+}

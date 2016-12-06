@@ -8,8 +8,9 @@ describe FilmsController do
       expect(response).to be_success
     end
 
-    it "has two fields" do
+    it "renders index.html" do
       get "index", :format => :html
+      expect(response).to render_template(:index)
     end
   end
 

@@ -1,1 +1,21 @@
-<%= @result%>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FooFilm</title>
+  </head>
+  <body class="wrapper">
+    <div id="main-container" class="container">
+      <div id="message" class="panel">
+        <h3>FooFilms</h3>
+        <hr />
+        <p>
+          Title: <%= @result[:title] %>
+        </p>
+        <p>
+          Year: <%= @result[:year] %>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
