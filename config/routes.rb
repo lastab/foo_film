@@ -56,4 +56,6 @@ Rails.application.routes.draw do
 
   resources :films, only: [:index]
 
+  root :to => redirect('/films.html')
+
 end
